@@ -1,5 +1,5 @@
 ## Challenges collection
-This is a repository for challenges that I have attempted mainly from codewars.com plus personal scripts that I use on a daily basis.  
+This is a repository for challenges that I have attempted mainly from [Codewards](https://codewars.com) and [Hackerrank](https://hackerrank.com)  plus personal scripts that I use on a daily basis.  
 The main language is python but you'll occassionally come across javascript and shell scripts.
 
 ### Found a bug or ways to spice it up?
