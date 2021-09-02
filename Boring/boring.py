@@ -11,9 +11,10 @@ def is_boring(left_edge, right_edge):
     odd_in_twos= [x for x in twos if x[0] %2 != 0]
     
     if(even_in_ones == [] and odd_in_twos == []): 
-      print(number)
       boring_numbers += 1
 
   return boring_numbers
 
-print(is_boring(20, 30))
+left_edge = int(input())
+right_edge = int(input())
+print(is_boring(left_edge, right_edge))
