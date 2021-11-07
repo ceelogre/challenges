@@ -2,9 +2,7 @@ def first_unique(array):
   for index, element in enumerate(array):
     # remove the elt
     array.pop(index)
-    if element in array:
-      pass
-    else:
+    if element not in array:
       return element
   return 'No unique element'
 
