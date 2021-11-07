@@ -1,7 +1,8 @@
 const addArrays = (arr1, arr2) => {
   let arr3 = []
-  for (let i = 0; i < arr2.length;  ++i)
-    arr3.push(arr1[i] + arr2[i])
+  arr1.forEach((element, i) => {
+    arr3.push(element + arr2[i])
+  });
   return arr3
 }
 
