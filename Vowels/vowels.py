@@ -5,7 +5,6 @@
 
 def vowelsCount(str):
   count = 0
-  seen = []
   vowels = ['a', 'e', 'i', 'u', 'o'] 
   for letter in str:
     if letter in vowels:
@@ -13,5 +12,5 @@ def vowelsCount(str):
   return count
 
 print(vowelsCount("aerial"))
-print(vowelsCount('Abbracadabra'))
+print(vowelsCount('abbracadabra'))
 print(vowelsCount('yield fire'))
