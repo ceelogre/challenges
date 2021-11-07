@@ -11,7 +11,7 @@ Your character starts with a maximum breath meter of 10, and you can replenish y
 
 However, when diving underwater, your breath meter decreases by 2 per item in the array. Watch out, if your breath diminishes to 0, your character dies!
 
-Worked Example
+Worked Example:  
 `divingMinigame([-5, -15, -4, 0, 5]) ➞ true`
 
 Breath meter starts at 10.
@@ -22,7 +22,7 @@ Breath meter starts at 10.
 5 is above sea level and breath meter is capped at 10 (would've been 12 otherwise).
 Character survives!
 
-Examples:
+Examples:  
   `divingMinigame([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) ➞ true`
   `divingMinigame([-3, -6, -2, -6, -2]) ➞ false`
   `divingMinigame([2, 1, 2, 1, -3, -4, -5, -3, -4]) ➞ false`
