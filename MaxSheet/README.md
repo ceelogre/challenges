@@ -35,3 +35,12 @@ Ostrava| -7
 Praha| -8
 The output should be: `MaxSheet(S, C) = -5`.
 
+Assumptions:
+
+* S is a string of length N in CSV format
+* N is an integer within the range [3...100000]
+* M is an integer within the range of [1..5]
+* Each row has the same positive number of cells
+* Each cell is of length [1..5] and consists only of letters, digits and/or special characters
+* C is the name of a unique co lumn in the table, whose values are integeres within the range [-9999...9999]; there are no erronneious values in this column;
+* There is no new line at the end of string S
