@@ -17,6 +17,6 @@ def increment(n):
     else: n[index] = elt + 1
 
 print(count_moves([2,2,2,2]))
-print(count_moves([1,2,3,4]))
+print(count_moves([1,2,3]))
 print(count_moves([3,4,6,6,3]))
 print(count_moves([10, -10, -1, -1, 10]))
