@@ -1,20 +1,16 @@
 def search_insert_pos(nums, target):
   try:
     pos = nums.index(target)
+    return pos
   except ValueError:
-    for index, num in enumerate(nums):
-      if num+1 == target:
-        pos = index+1 
-  return pos
+    start_pos = 0
+    end_pos = len(nums) -1
+    while start_pos <= end_pos:
+      mid_pos = (start_pos + end_pos) // 2
+      if target > nums[mid_pos]:
+        start_pos = mid_pos + 1
+      else:
+        end_pos = mid_pos - 1
+    return start_pos
 
-def sip_log(nums, target):
-  try:
-    pos = nums.index(target)
-  except ValueError:
-    mid = len(nums)//2
-    if nums[mid] > target:
-     pass 
-    else:
-      pass
-
-print(search_insert_pos([1,3,5,6], 0))
+print(search_insert_pos([1,3,5,7], 4))
